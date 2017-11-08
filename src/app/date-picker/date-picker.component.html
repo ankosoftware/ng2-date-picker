@@ -50,6 +50,11 @@
                             (onChange)="dateSelected($event, 'second', true)"
                             [theme]="theme">
       </dp-day-time-calendar>
+
+      <div class="dp-month-calendar-container">
+        <ng-content>
+        </ng-content>
+      </div>
     </div>
   </div>
 </div>
