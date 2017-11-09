@@ -22,9 +22,9 @@ import { DayTimeCalendarComponent } from '../day-time-calendar/day-time-calendar
 export declare class DatePickerComponent implements OnChanges, OnInit, AfterViewInit, ControlValueAccessor, Validator, OnDestroy {
     private dayPickerService;
     private domHelper;
-    private elemRef;
     private renderer;
     private utilsService;
+    elemRef: ElementRef;
     isInitialized: boolean;
     config: IDatePickerConfig;
     mode: CalendarMode;
