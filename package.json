@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve -o",
+    "start": "ng serve -o -p 4201",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
